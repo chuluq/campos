@@ -1,0 +1,14 @@
+.header {
+  padding: 30px 16px;
+  background-color: rgb(24, 30, 33);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+.logo h1 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
