@@ -12,7 +12,7 @@ import igImg3 from "@/assets/ig-img-3.png";
 import igImg4 from "@/assets/ig-img-4.png";
 import igImg5 from "@/assets/ig-img-5.png";
 import igImg6 from "@/assets/ig-img-6.png";
-import styles from "@/pages/Home/Home.module.css";
+import styles from "@/pages/home/Home.module.css";
 
 export default function Home() {
   return (

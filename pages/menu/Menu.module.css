@@ -1,0 +1,77 @@
+/* cover */
+.cover {
+  background-image: url("../../assets/menu-cover.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 50px 16px;
+}
+.cover h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* menu */
+.menus {
+  padding: 50px 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+.menuCategory {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.menuCategory h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.menuList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.menuName,
+.menuPrice {
+  font-family: "Rufina", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.menuDesc {
+  font-family: "Rufina", serif;
+  font-size: 16px;
+}
+
+/* booking */
+.booking {
+  background-color: #181e21;
+  color: #fff;
+  padding: 50px 16px;
+}
+.bookingDesc {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 30px;
+}
+.bookingDesc h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.bookingDesc p {
+  font-family: "Rufina", serif;
+  font-size: 16px;
+}
