@@ -76,3 +76,117 @@
   font-family: "Rufina", serif;
   font-size: 16px;
 }
+
+/* about */
+.about {
+  padding: 50px 16px;
+  background-color: #dad8d3;
+}
+.aboutTitle {
+  margin-bottom: 20px;
+}
+.aboutTitle h3 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.aboutDesc {
+  margin-bottom: 30px;
+}
+.aboutDesc p {
+  font-family: "Rufina", serif;
+  font-size: 16px;
+}
+.aboutCover {
+  position: relative;
+  height: 382px;
+}
+.aboutCoverImg {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* offers */
+.offers {
+  padding: 50px 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.offerCategory {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.offerName {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.offerDesc {
+  font-family: "Rufina", serif;
+  font-size: 16px;
+}
+.offerCover {
+  position: relative;
+  height: 515px;
+}
+.offerCoverImg {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* follow */
+.follow {
+  background-color: #dad8d3;
+  padding: 50px 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.followText h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2f2d2d;
+}
+.followImages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
+}
+.igImgs {
+  position: relative;
+  width: 276px;
+  height: 279px;
+}
+.igImg {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* booking */
+.booking {
+  background-color: #181e21;
+  color: #fff;
+  padding: 50px 16px;
+}
+.bookingDesc {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 30px;
+}
+.bookingDesc h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.bookingDesc p {
+  font-family: "Rufina", serif;
+  font-size: 16px;
+}

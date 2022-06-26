@@ -12,3 +12,18 @@
 .btn:hover {
   background-color: #383838;
 }
+.btnDark {
+  border: none;
+  outline: none;
+  padding: 14px 32px;
+  background-color: #fff;
+  color: #181e21;
+  font-family: "Poppins", san-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btnDark:hover {
+  background-color: #393737;
+  color: #fff;
+}
