@@ -8,13 +8,11 @@
   padding: 50px 16px;
 }
 .cover h1 {
-  font-family: "Poppins", sans-serif;
   font-size: 65px;
   font-weight: bold;
   text-transform: uppercase;
 }
 .cover p {
-  font-family: "Rufina", serif;
   font-size: 18px;
 }
 .coverText {
@@ -38,7 +36,6 @@
   background-color: #181e21;
 }
 .coverCaption h3 {
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
   color: #fff;
   text-transform: uppercase;
@@ -48,12 +45,12 @@
 .menus {
   padding: 50px 16px;
 }
-.menuCategory,
-.menu {
-  margin-bottom: 20px;
+.menuCategory {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
-.menuCategory h3 {
-  font-family: "Poppins", sans-serif;
+.menuCategoryName h3 {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
@@ -62,19 +59,20 @@
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  margin-bottom: 24px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }
 .menuName,
 .menuPrice {
-  font-family: "Rufina", serif;
   font-size: 18px;
   text-transform: uppercase;
 }
-.menuDetails {
-  margin-bottom: 10px;
-}
 .menuDesc {
-  font-family: "Rufina", serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* about */
@@ -87,15 +85,16 @@
 }
 .aboutTitle h3 {
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
 .aboutDesc {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
 }
 .aboutDesc p {
-  font-family: "Rufina", serif;
   font-size: 16px;
 }
 .aboutCover {
@@ -112,21 +111,19 @@
   padding: 50px 16px;
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 20px;
 }
 .offerCategory {
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 12px;
 }
 .offerName {
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 600;
   text-transform: capitalize;
 }
 .offerDesc {
-  font-family: "Rufina", serif;
   font-size: 16px;
 }
 .offerCover {
@@ -147,7 +144,6 @@
   row-gap: 30px;
 }
 .followText h6 {
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #2f2d2d;
@@ -181,12 +177,10 @@
   margin-bottom: 30px;
 }
 .bookingDesc h3 {
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
 }
 .bookingDesc p {
-  font-family: "Rufina", serif;
   font-size: 16px;
 }

@@ -54,67 +54,70 @@ export default function Home() {
 
       <div className={styles.menus}>
         <div className={styles.menuCategory}>
-          <h3>Small Bites</h3>
-        </div>
-        <div className={styles.menuList}>
-          <div className={styles.menu}>
-            <div className={styles.menuDetails}>
-              <p className={styles.menuName}>Bagels</p>
-              <p className={styles.menuPrice}>1.00$</p>
-            </div>
-            <p className={styles.menuDesc}>
-              Choose from a selection of fillings, from cream cheese to smoked
-              salmon
-            </p>
+          <div className={styles.menuCategoryName}>
+            <h3>Small Bites</h3>
           </div>
-          <div className={styles.menu}>
-            <div className={styles.menuDetails}>
-              <p className={styles.menuName}>Bread rolls</p>
-              <p className={styles.menuPrice}>2.00$</p>
+
+          <div className={styles.menuList}>
+            <div className={styles.menu}>
+              <div className={styles.menuDetails}>
+                <p className={styles.menuName}>Bagels</p>
+                <p className={styles.menuPrice}>1.00$</p>
+              </div>
+              <p className={styles.menuDesc}>
+                Choose from a selection of fillings, from cream cheese to smoked
+                salmon
+              </p>
             </div>
-            <p className={styles.menuDesc}>
-              Our handmade bread rolls come in all shapes and sizes
-            </p>
-          </div>
-          <div className={styles.menu}>
-            <div className={styles.menuDetails}>
-              <p className={styles.menuName}>French bread</p>
-              <p className={styles.menuPrice}>4.00$</p>
+            <div className={styles.menu}>
+              <div className={styles.menuDetails}>
+                <p className={styles.menuName}>Bread rolls</p>
+                <p className={styles.menuPrice}>2.00$</p>
+              </div>
+              <p className={styles.menuDesc}>
+                Our handmade bread rolls come in all shapes and sizes
+              </p>
             </div>
-            <p className={styles.menuDesc}>
-              Feeling indulgent? Our rich French toast is perfect for special
-              occasions
-            </p>
-          </div>
-          <div className={styles.menu}>
-            <div className={styles.menuDetails}>
-              <p className={styles.menuName}>Banana bread</p>
-              <p className={styles.menuPrice}>8.00$</p>
+            <div className={styles.menu}>
+              <div className={styles.menuDetails}>
+                <p className={styles.menuName}>French bread</p>
+                <p className={styles.menuPrice}>4.00$</p>
+              </div>
+              <p className={styles.menuDesc}>
+                Feeling indulgent? Our rich French toast is perfect for special
+                occasions
+              </p>
             </div>
-            <p className={styles.menuDesc}>
-              An all-time favorite for both kids and grown-ups, now available in
-              regular and sharing sizes
-            </p>
-          </div>
-          <div className={styles.menu}>
-            <div className={styles.menuDetails}>
-              <p className={styles.menuName}>5 seeds bread</p>
-              <p className={styles.menuPrice}>8.00$</p>
+            <div className={styles.menu}>
+              <div className={styles.menuDetails}>
+                <p className={styles.menuName}>Banana bread</p>
+                <p className={styles.menuPrice}>8.00$</p>
+              </div>
+              <p className={styles.menuDesc}>
+                An all-time favorite for both kids and grown-ups, now available
+                in regular and sharing sizes
+              </p>
             </div>
-            <p className={styles.menuDesc}>
-              Our nutritious 5 seed bread goes through a 12-hour cold raise and
-              is baked in our stone ovens
-            </p>
-          </div>
-          <div className={styles.menu}>
-            <div className={styles.menuDetails}>
-              <p className={styles.menuName}>Organic toast</p>
-              <p className={styles.menuPrice}>3.00$</p>
+            <div className={styles.menu}>
+              <div className={styles.menuDetails}>
+                <p className={styles.menuName}>5 seeds bread</p>
+                <p className={styles.menuPrice}>8.00$</p>
+              </div>
+              <p className={styles.menuDesc}>
+                Our nutritious 5 seed bread goes through a 12-hour cold raise
+                and is baked in our stone ovens
+              </p>
             </div>
-            <p className={styles.menuDesc}>
-              Healthy and delicious, our organic toast is served with locally
-              sourced butter and condiments
-            </p>
+            <div className={styles.menu}>
+              <div className={styles.menuDetails}>
+                <p className={styles.menuName}>Organic toast</p>
+                <p className={styles.menuPrice}>3.00$</p>
+              </div>
+              <p className={styles.menuDesc}>
+                Healthy and delicious, our organic toast is served with locally
+                sourced butter and condiments
+              </p>
+            </div>
           </div>
         </div>
         <Button title="View the menu" />
@@ -128,8 +131,8 @@ export default function Home() {
           <p>
             Our philosophy is to be part of the neighborhood and give back to
             our community.
-            <br />
-            <br />
+          </p>
+          <p>
             We publish monthly sourdough recipe booklets both online and
             in-store, organize workshops and evening courses, and even rent out
             our shop for local artists and musicians.
@@ -148,29 +151,34 @@ export default function Home() {
       <div className={styles.offers}>
         <div className={styles.offerCategory}>
           <h5 className={styles.offerName}>Hand crafted</h5>
-          <p className={styles.offerDesc}>
-            Want to learn more about baking and the secrets of bread making?
-            <br />
-            Join our quarterly Hand Crafted courses in our store.
-          </p>
+          <div>
+            <p className={styles.offerDesc}>
+              Want to learn more about baking and the secrets of bread making?
+            </p>
+            <p>Join our quarterly Hand Crafted courses in our store.</p>
+          </div>
         </div>
         <div className={styles.offerCategory}>
           <h5 className={styles.offerName}>Community</h5>
-          <p className={styles.offerDesc}>
-            Looking for a venue to host an event?
-            <br />
-            CAMPOS welcomes creative souls from all walks of life.
-          </p>
+          <div>
+            <p className={styles.offerDesc}>
+              Looking for a venue to host an event?
+            </p>
+            <p>CAMPOS welcomes creative souls from all walks of life.</p>
+          </div>
         </div>
         <div className={styles.offerCategory}>
           <h5 className={styles.offerName}>Recipes</h5>
-          <p className={styles.offerDesc}>
-            Sourdough can be intimidating for a novice baker, but it doesn’t
-            have to be.
-            <br />
-            Every month, we combine some of our favorite sourdough recipes
-            together.
-          </p>
+          <div>
+            <p className={styles.offerDesc}>
+              Sourdough can be intimidating for a novice baker, but it doesn’t
+              have to be.
+            </p>
+            <p>
+              Every month, we combine some of our favorite sourdough recipes
+              together.
+            </p>
+          </div>
         </div>
         <div className={styles.offerCover}>
           <Image
