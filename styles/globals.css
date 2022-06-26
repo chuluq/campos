@@ -35,3 +35,13 @@ li {
 p {
   font-family: "Rufina", serif;
 }
+
+.fb:hover {
+  fill: #1877f2;
+}
+.ig:hover {
+  fill: #e4405f;
+}
+.youtube:hover {
+  fill: #ff0000;
+}

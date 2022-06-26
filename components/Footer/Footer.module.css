@@ -53,15 +53,6 @@
   height: 20px;
   cursor: pointer;
 }
-.fb:hover {
-  fill: #1877f2;
-}
-.ig:hover {
-  fill: #e4405f;
-}
-.youtube:hover {
-  fill: #ff0000;
-}
 .credit {
   text-align: right;
 }

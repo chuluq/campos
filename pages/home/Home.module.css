@@ -1,0 +1,78 @@
+/* cover */
+.cover {
+  background-image: url("../../assets/home-cover.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 50px 16px;
+}
+.cover h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cover p {
+  font-family: "Rufina", serif;
+  font-size: 18px;
+}
+.coverText {
+  margin-bottom: 42px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  column-gap: 28px;
+}
+.icon {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  fill: #fff;
+}
+.coverCaption {
+  padding: 50px 16px;
+  background-color: #181e21;
+}
+.coverCaption h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* menu */
+.menus {
+  padding: 50px 16px;
+}
+.menuCategory,
+.menu {
+  margin-bottom: 20px;
+}
+.menuCategory h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.menuList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.menuName,
+.menuPrice {
+  font-family: "Rufina", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.menuDetails {
+  margin-bottom: 10px;
+}
+.menuDesc {
+  font-family: "Rufina", serif;
+  font-size: 16px;
+}

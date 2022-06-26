@@ -1,0 +1,14 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 14px 32px;
+  background-color: #161414;
+  color: #fff;
+  font-family: "Poppins", san-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #383838;
+}

@@ -37,21 +37,21 @@ export default function Footer() {
         <a
           href="https://facebook.com"
           target="__blank"
-          className={`${styles.icon} ${styles.fb}`}
+          className={`${styles.icon} fb`}
         >
           <FacebookIcon />
         </a>
         <a
           href="https://instagram.com"
           target="__blank"
-          className={`${styles.icon} ${styles.ig}`}
+          className={`${styles.icon} ig`}
         >
           <InstagramIcon />
         </a>
         <a
           href="https://youtube.com"
           target="__blank"
-          className={`${styles.icon} ${styles.youtube}`}
+          className={`${styles.icon} youtube`}
         >
           <YoutubeIcon />
         </a>
