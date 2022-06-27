@@ -1,0 +1,30 @@
+.bookingForm {
+  padding: 50px 16px;
+  background-color: #eee9e2;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.bookingFormTitle h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2f2d2d;
+}
+.bookingFormCaption p {
+  color: #635c56;
+}
+.bookingFormField {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.caption {
+  padding: 50px 16px;
+}
+.caption h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

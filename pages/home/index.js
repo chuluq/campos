@@ -120,7 +120,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Button title="View the menu" />
+        <Button title="View the menu" dark={true} />
       </div>
 
       <div className={styles.about}>
@@ -255,7 +255,7 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.bookingCta}>
-          <Button title="Book a table" dark={true} />
+          <Button title="Book a table" />
         </div>
       </div>
     </Layout>
