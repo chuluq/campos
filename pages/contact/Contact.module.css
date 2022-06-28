@@ -1,0 +1,54 @@
+.contact {
+  padding: 50px 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.contactText {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.contactTitle h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.contactDetailsName {
+  text-transform: uppercase;
+}
+.cover {
+  position: relative;
+  height: 447px;
+}
+.coverImg {
+  object-fit: cover;
+  object-position: center;
+}
+@media (min-width: 1024px) {
+  .contact {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 96px;
+  }
+  .cover {
+    height: auto;
+  }
+  .contactText {
+    row-gap: 32px;
+  }
+  .contactTitle h3 {
+    font-size: 40px;
+  }
+  .contactDetails {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 40px;
+  }
+}
