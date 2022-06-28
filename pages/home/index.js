@@ -124,19 +124,21 @@ export default function Home() {
       </div>
 
       <div className={styles.about}>
-        <div className={styles.aboutTitle}>
-          <h3>We care</h3>
-        </div>
-        <div className={styles.aboutDesc}>
-          <p>
-            Our philosophy is to be part of the neighborhood and give back to
-            our community.
-          </p>
-          <p>
-            We publish monthly sourdough recipe booklets both online and
-            in-store, organize workshops and evening courses, and even rent out
-            our shop for local artists and musicians.
-          </p>
+        <div className={styles.aboutText}>
+          <div className={styles.aboutTitle}>
+            <h3>We care</h3>
+          </div>
+          <div className={styles.aboutDesc}>
+            <p>
+              Our philosophy is to be part of the neighborhood and give back to
+              our community.
+            </p>
+            <p>
+              We publish monthly sourdough recipe booklets both online and
+              in-store, organize workshops and evening courses, and even rent
+              out our shop for local artists and musicians.
+            </p>
+          </div>
         </div>
         <div className={styles.aboutCover}>
           <Image
@@ -149,35 +151,37 @@ export default function Home() {
       </div>
 
       <div className={styles.offers}>
-        <div className={styles.offerCategory}>
-          <h5 className={styles.offerName}>Hand crafted</h5>
-          <div>
-            <p className={styles.offerDesc}>
-              Want to learn more about baking and the secrets of bread making?
-            </p>
-            <p>Join our quarterly Hand Crafted courses in our store.</p>
+        <div className={styles.offerCategories}>
+          <div className={styles.offerCategory}>
+            <h5 className={styles.offerName}>Hand crafted</h5>
+            <div>
+              <p className={styles.offerDesc}>
+                Want to learn more about baking and the secrets of bread making?
+              </p>
+              <p>Join our quarterly Hand Crafted courses in our store.</p>
+            </div>
           </div>
-        </div>
-        <div className={styles.offerCategory}>
-          <h5 className={styles.offerName}>Community</h5>
-          <div>
-            <p className={styles.offerDesc}>
-              Looking for a venue to host an event?
-            </p>
-            <p>CAMPOS welcomes creative souls from all walks of life.</p>
+          <div className={styles.offerCategory}>
+            <h5 className={styles.offerName}>Community</h5>
+            <div>
+              <p className={styles.offerDesc}>
+                Looking for a venue to host an event?
+              </p>
+              <p>CAMPOS welcomes creative souls from all walks of life.</p>
+            </div>
           </div>
-        </div>
-        <div className={styles.offerCategory}>
-          <h5 className={styles.offerName}>Recipes</h5>
-          <div>
-            <p className={styles.offerDesc}>
-              Sourdough can be intimidating for a novice baker, but it doesn’t
-              have to be.
-            </p>
-            <p>
-              Every month, we combine some of our favorite sourdough recipes
-              together.
-            </p>
+          <div className={styles.offerCategory}>
+            <h5 className={styles.offerName}>Recipes</h5>
+            <div>
+              <p className={styles.offerDesc}>
+                Sourdough can be intimidating for a novice baker, but it doesn’t
+                have to be.
+              </p>
+              <p>
+                Every month, we combine some of our favorite sourdough recipes
+                together.
+              </p>
+            </div>
           </div>
         </div>
         <div className={styles.offerCover}>

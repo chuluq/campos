@@ -5,7 +5,6 @@
   background-color: #eee9e2;
   flex-shrink: 0;
 }
-
 .logo {
   margin-bottom: 20px;
 }
@@ -15,18 +14,15 @@
   font-weight: bold;
   text-transform: uppercase;
 }
-
 .footerDetails {
   display: flex;
   flex-direction: column;
   row-gap: 18px;
   margin-bottom: 1rem;
 }
-
 .address p {
   font-size: 1rem;
 }
-
 .openHours {
   display: flex;
   flex-direction: column;
@@ -37,7 +33,6 @@
 .openHours p {
   font-size: 16px;
 }
-
 .socials {
   display: flex;
   align-items: center;
@@ -53,4 +48,28 @@
 .credit {
   text-align: right;
   font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 80px;
+  }
+  .footerDetails {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px;
+  }
+  .address,
+  .office {
+    width: 250px;
+  }
+  .openHours {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .socials {
+    grid-column: 2;
+    grid-row: 3;
+  }
 }
