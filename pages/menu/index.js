@@ -158,7 +158,7 @@ export default function Menu() {
           </p>
         </div>
         <div className={styles.bookingCta}>
-          <Button title="Book a table" dark={true} />
+          <Button title="Book a table" />
         </div>
       </div>
     </Layout>

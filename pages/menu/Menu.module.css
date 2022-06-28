@@ -12,6 +12,14 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+@media (min-width: 1024px) {
+  .cover {
+    padding: 160px 80px;
+  }
+  .cover h3 {
+    font-size: 40px;
+  }
+}
 
 /* menu */
 .menus {
@@ -48,6 +56,32 @@
 .menuDesc {
   font-size: 14px;
 }
+@media (min-width: 1024px) {
+  .menus {
+    padding: 80px;
+    row-gap: 80px;
+  }
+  .menuCategory {
+    row-gap: 32px;
+  }
+  .menuCategoryName h3 {
+    font-size: 40px;
+  }
+  .menuList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 96px;
+  }
+  .menuDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menuDesc {
+    font-size: 16px;
+    width: 86%;
+  }
+}
 
 /* booking */
 .booking {
@@ -68,4 +102,12 @@
 }
 .bookingDesc p {
   font-size: 16px;
+}
+@media (min-width: 1024px) {
+  .booking {
+    padding: 80px;
+  }
+  .bookingDesc h3 {
+    font-size: 40px;
+  }
 }
