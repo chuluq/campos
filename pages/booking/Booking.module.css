@@ -19,6 +19,21 @@
   flex-direction: column;
   row-gap: 16px;
 }
+@media (min-width: 1024px) {
+  .bookingForm {
+    padding: 80px;
+  }
+  .bookingFormTitle h3 {
+    font-size: 40px;
+  }
+  .bookingFormCaption {
+    width: 60%;
+  }
+  .bookingFormField {
+    width: 60%;
+    row-gap: 18px;
+  }
+}
 
 .caption {
   padding: 50px 16px;
@@ -27,4 +42,12 @@
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+  .caption {
+    padding: 80px;
+  }
+  .caption h3 {
+    font-size: 32px;
+  }
 }
